@@ -1,0 +1,308 @@
+.head_space{
+	display: block;
+}
+
+.nav{
+	line-height: 80px;
+	display: inline-block;
+	color: #666666;
+	font-size: 20px;
+}
+
+#logo{
+	margin-top: 10px;
+	margin-right: 42px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#shouye{
+	margin-right: 65px;
+}
+
+#fenlei{
+	margin-right: 110px;
+}
+
+#sousuo{
+	position: relative;
+	top: -4px;
+	left: 1px;
+}
+
+.search_nav{
+	vertical-align: middle;
+	position: relative;
+	display: inline-block;
+}
+
+.input{
+	height: 34px;
+	width: 269px;
+	box-sizing: border-box;
+	border: 2px solid #F44336;
+	border-right: none;
+	outline: none;
+	vertical-align: middle;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.search_button{
+
+	line-height: 32px;
+	height: 34px;
+	width: 80px;
+	background-color: #F44336;
+	border: none;
+	margin-left: -7px;
+}
+
+button{
+	cursor: pointer;
+}
+
+.input_box{
+	display: block;
+	height: 26px;
+	padding: 0 10px;
+	width: 247px;
+	font-size: 14px;
+	border:0;
+	
+}
+
+.login_button{
+	position: relative;
+	top: -5px;
+	background-color: #1dc091;
+	width: 90px;
+	line-height: 30px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 98px;
+}
+ 
+
+ a{
+	text-decoration: none;
+	color: #ffff;
+}
+
+.body{
+	position: relative;
+	width: 1000px;
+	height: 100%;
+}
+
+.banner{
+	margin: 0 auto;
+	width: 1000px;
+	height: 352px;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner-slide{
+	width: 4000px;
+	height: 352px;
+	overflow: hidden;
+	position: absolute;
+	/*background-size: contain,cover;*/
+}
+
+.banner-slide img{
+	float: left;
+}
+
+
+
+.dots{
+	position: absolute;
+	bottom: 20px;
+	right: 25px;
+	text-align: center;
+}
+
+.dots span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.dots span:hover{
+	background: #ffb75b;
+}
+
+.hot_courses{
+	margin: 0 auto;
+	width: 1000px;
+	padding: 40px 56px 48px 55px;
+	margin-bottom: 10px;	
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+.hot_lists{
+	margin-right: 0px;
+	padding: 0px;
+	vertical-align: top;
+	font-size: 14px;
+	width: 220px;
+	height: 322px;
+	display: inline-block;
+}
+
+.course_class{
+	width: 96px;
+	height: 96px;
+	color: #1dc091;
+	border: 2px solid;
+	border-radius: 50%;
+	line-height: 96px;
+	font-size: 36px;
+	font-weight: lighter;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+.listcont{
+	margin: 40px 0 30px;
+	border-right: 2px solid #eeeeee;
+}
+
+.listcont_rightest{
+	border-right: none;
+}
+
+.list{
+	margin: 0 45px;
+}
+
+.item{
+	margin-bottom: 5px;
+	cursor: pointer;
+	color: #5c5c5c;
+	line-height: 1;
+}
+
+
+
+.course_name{
+	font-size: 0;
+}
+
+.list_tag{
+	display: inline-block;
+	vertical-align: middle;
+	border: 3px solid ;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.course_name a{
+	width: 112px;
+	padding: 3px 0;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #5c5c5c;
+}
+
+.item .info{
+	margin-bottom: 0px;
+	font-size: 12px;
+	color: #5c5c5c;
+	width: 100%;
+	padding: 3px 10px;
+}
+
+
+
+.cp{
+	cursor: pointer;
+}
+
+.hot_lists .more{
+	width: 24px;
+	height: 24px;
+	color: #1dc091;
+	border:1px solid;
+	border-radius: 50%;
+	line-height: 24px;
+	font-size: 24px;
+	font-weight: lighter;
+	margin: 0 auto ;
+
+}
+
+.hot_course{
+	height: 122px;
+	width: 1000px;
+	background: #FFFFFF;
+	padding: 30px 144px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 30px 127px 30px 127px
+}
+
+.title{
+	font-size: 18px;
+	line-height: 18px;
+	color: #333333;
+	padding: 3px 0;
+	text-align: center;
+}
+
+.introduce{
+	font-size:12px;
+	line-height: 12px;
+	color: #1dc091;
+	padding: 3px 0;
+	text-align: center;
+}
+
+.hot_course_b{
+	height: 237px;
+	margin-bottom: 200px; 
+}
+
+.about{
+	padding-top: 30px;
+	font-family: PingFang SC;
+	font-size: 14px;
+	color: #9b9b9b;
+	font-weight:lighter;
+
+}
+
+.rabit{
+	width: 301px;
+	height: 35px;
+	margin: 0 auto 10px;
+}
+
+.muxi{
+	letter-spacing: 5px;
+	word-spacing: 5px;
+}
+
+.about .line{
+	width: 3px;
+	height: 10px;
+	display: inline-block;
+	background: #F44336;
+	border-width: 1.5px;
+	margin: 0 10px;
+}

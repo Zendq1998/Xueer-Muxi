@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>学而</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.head{
+		height: 79.2px;
+		width: 100%;
+		background-color: #ffffff;
+		border-bottom: 2px solid #eeeeee;
+	}
+	.nav_space{
+		margin: 0 auto;
+		width: 1000px;
+		height: 100%
+	}
+	.body{
+		font-family: "Mircosoft YaHei","\5FAE\8F6F\96C5\9ED1","Arial","Helvetica","PingFang SC","STHeiti","sans-serif";
+		height: 1210px;
+		width: 100%;
+		background-color: #f4f4f4;
+		
+	}
+	.foot{
+		width: 100%;
+		margin-top: 1px;
+		height: 119px;
+		background-color: #333333;
+		border-bottom: 1px solid #333333;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+<div class="head">
+	<div class="nav_space">
+		<div id="logo" class="nav"><img src="images/logo.png" style="vertical-align: mi"></div>
+		<div id="shouye" class="nav">首页</div>
+		<div id="fenlei" class="nav">分类查看</div>
+		<div id="sousuo" class="nav">
+		<form>
+			<input type="text" name="" class="input" placeholder="课程名、标签">
+			<button type="submit" class="search_button search_nav">
+				<img src="images/search.png" style="width: 28px;height: 28px; vertical-align: middle;">
+			</button>
+		</form>
+	</div>
+	<div id="denglu" class="nav">
+		<a href="" class="login_button">登录/注册</a>
+	</div>
+	</div>
+</div>
+<div class="body">
+	<!-- 图片轮播 -->
+	<div class="banner">
+	<div class="banner" id="outer">
+	<!-- 图片 -->
+	
+		<div class="banner-slide" id="inner">
+			<img src="images/xueer_web_1.jpg" alt="" width="1000px" height="352px">
+			<img src="images/xueer_web_2.jpg" alt="" width="1000px" height="352px">
+
+		</div>
+		
+	
+		<!-- <div class="banner-slide slide2">
+			<img src="../images/xueer_web_2.jpg" alt="" width="1000px" height="352px">
+		</div> -->
+	</div>	
+	<!-- 小圆点 -->	
+   		<div class="dots">
+			<span id="pre"></span>
+			<span id="next"></span>
+		</div>
+	</div>
+	<!-- 热门课程 -->
+	<div class="hot_courses">
+		<!-- 四个inline-block的div不换行 消除了之间的空格 还可以使用margin负值或者加font-size=0的样式等方法 -->
+		<div class="hot_lists">
+			<div class="course_class">公</div>
+			<div class="listcont">
+				<div class="list">
+				 	<div class="item">
+				 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">思想道德修养与法律基础（李春火）</a>
+				 		</div>
+				 		<div class="info">
+							&nbsp;&nbsp;李春火
+				 		</div>
+				 	</div>
+				 	<div class="item">					 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">中国近代史纲要（常泓）</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;常泓</div>
+				 	</div>
+				 	<div class="item">					 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">思想道德修养与法律基础（薛惠）</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;薛惠</div>
+				 	</div> 	
+				</div>
+			</div>
+			<div class="more cp">＋</div>
+		</div><div class="hot_lists">
+			<div class="course_class">公</div>
+			<div class="listcont">
+				<div class="list">
+				 	<div class="item">
+				 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">音乐欣赏（胡建）</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;胡建</div>
+				 	</div>
+				 	<div class="item">					 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">果蔬花卉营养与保健</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;罗红艺</div>
+				 	</div>
+				 	<div class="item">					 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href=""> 观赏动物学</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;艾辉</div>
+				 	</div> 	
+				</div>
+			</div>
+			<div class="more cp">＋</div>
+		</div><div class="hot_lists">
+			<div class="course_class">通</div>
+			<div class="listcont">
+				<div class="list">
+				 	<div class="item">
+				 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">思想道德修养与法律基础（李春火）</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;李春火</div>
+				 	</div>
+				 	<div class="item">					 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">中国近代史纲要（常泓）</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;常泓</div>
+				 	</div>
+				 	<div class="item">					 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">思想道德修养与法律基础（薛惠）</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;薛惠</div>
+				 	</div> 	
+				</div>
+			</div>
+			<div class="more cp">＋</div>
+		</div><div class="hot_lists">
+			<div class="course_class">通</div>
+			<div class="listcont listcont_rightest">
+				<div class="list">
+				 	<div class="item">
+				 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href=""> 音乐欣赏（胡建）</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;胡建</div>
+				 	</div>
+				 	<div class="item">					 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">果蔬花卉营养与保健</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;罗红艺</div>
+				 	</div>
+				 	<div class="item">					 		<div class="course_name">
+							<span class="list_tag"></span>
+							<a href="">观赏动物学</a>
+				 		</div>
+				 		<div class="info">&nbsp;&nbsp;艾辉</div>
+				 	</div> 	
+				</div>
+
+			</div>
+			<div class="more cp">＋</div>
+		</div>
+	</div>
+	<div class="hot_course">
+		<div class="title">最热课程动态</div>
+		<div class="introduce">精心为您推荐最佳口碑课程NO.1-NO.5</div>
+	</div>
+	<div class="hot_course hot_course_b">
+		<div class="title">猜你喜欢课程</div>
+		<div class="introduce">根据您浏览记录，推荐相似课程列表</div>
+	</div>
+	
+
+</div>
+<div class="foot">
+	<div class="about">
+		<div class="rabit"><img src="images/muxi_footer.png" alt=""></div>
+		<div>
+			<span class="muxi">MUXI STUDIO</span>
+			<span class="line"></span>
+			<span>华中师范大学木犀团队</span>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

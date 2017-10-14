@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片的无缝滚动效果</title>    
+    <!-- 标题图标 -->
+    <link rel="shortcut icon" type="image/x-icon" href="1.png">
+    <style>
+        body,
+        div,
+        img {
+            margin: 0;
+            padding: 0;
+        }
+        .outer {
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+        }
+        #inner {
+            width: 2000px;
+            height: 200px;
+        }
+        #inner img {
+            float: left;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer" id="outer">
+        <div id="inner">
+            <a href="http:www.baidu.com"><img src="xueer_web_1.jpg" alt="1"></a>
+            <img src="xueer_web_2.jpg" alt="2">
+          
+        </div>
+    </div>
+    <script>
+        var outer = document.getElementById('outer');
+        var inner = document.getElementById('inner');
+        // inner.innerHTML += inner.innerHTML;
+        function autoscroll(){
+            outer.scrollLeft++;
+            if(outer.scrollLeft == inner.offsetWidth/2){
+                outer.scrollLeft = 0;                
+            }
+        }
+        // 经过17毫秒后，执行一次autoscroll函数
+        // setInterval(autoscroll,17);
+        // 每经过17毫秒后，执行一次autoscroll函数
+        setInterval(autoscroll,17);
+    </script>
+</body>
+</html>
